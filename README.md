@@ -42,10 +42,6 @@ RTNThreedRenderer is a React Native library for rendering glTF models on Android
    }
    ```
 
-   ```
-
-   ```
-
 2. Install the package using npm or yarn:
 
    ```
@@ -57,13 +53,13 @@ RTNThreedRenderer is a React Native library for rendering glTF models on Android
 3. To use import the lib
    `import RTNThreedRenderer from 'rtn-threed-renderer/js/RTNThreedRendererNativeComponent';`
 
-   ````
+   ```
    <RTNThreedRenderer
      fileNameWithExtension="filename.glb"
      url="my_netowrk_url_where_glb_model_is_located"
      animationCount={0}
 
-   />```
-   ````
+   />
+   ```
 
-## RTNThreedRenderer currently supports glb models. It's essential to provide the filename with its extension, as the library caches the file upon the initial download. If you update the URL, make sure to also update the 'fileNameWithExtension' prop accordingly.
+# RTNThreedRenderer currently supports glb models. It's essential to provide the filename with its extension, as the library caches the file upon the initial download. If you update the URL, make sure to also update the 'fileNameWithExtension' prop accordingly.
